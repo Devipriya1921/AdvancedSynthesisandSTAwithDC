@@ -598,6 +598,8 @@ of a sequential element are considered as valid start point. End Point: All outp
 The main goal of static timing analysis is to verify that despite these possible variations, all signals will arrive neither too early nor too late, and hence proper 
 circuit operation can be assured. Since STA is capable of verifying every path, it can detect other problems like glitches, slow paths and clock skew.
 
+**report_timing**:
+
 ![lab-1- lab8_circuit_modified-report_timing - slack met](https://user-images.githubusercontent.com/83152452/179356215-d74710f9-b895-4900-9a53-01eeba61c870.png)
 
 ![lab-1- lab8_circuit_modified-report_timing - slack met-2](https://user-images.githubusercontent.com/83152452/179356216-ff35611c-0026-4e45-b9db-79f925a29b6e.png)
@@ -618,6 +620,8 @@ set. Library cell pins also can have max_capacitance value specified.
 
 **HFN:** High Fanout Net Synthesis (HFNS) is the process of buffering the High Fanout Nets to balance the load.
 
+**en_128**:
+
 ![lab-2- en_128- report_area](https://user-images.githubusercontent.com/83152452/179356229-245f51b0-49f2-4ecc-acb3-e26bb1e5feca.png)
 
 ![lab-2- en_128- report_power](https://user-images.githubusercontent.com/83152452/179356239-766664cf-ff3c-4e02-89db-c62774f79740.png)
@@ -625,6 +629,8 @@ set. Library cell pins also can have max_capacitance value specified.
 ![lab-2- en_128- schematic view](https://user-images.githubusercontent.com/83152452/179356242-7719b023-59d7-40f2-b8c1-bea2e8371a34.png)
 
 ![lab-2- feedthrough the design - 1](https://user-images.githubusercontent.com/83152452/179356251-1fd59c51-9053-4076-be78-34df0baefb3f.png)
+
+**mux_generate_128_1**:
 
 ![lab-2- mux_generate_128_1 - report_power](https://user-images.githubusercontent.com/83152452/179356255-574ce34f-8fe2-4b3e-953e-84ab7f65dcd3.png)
 
