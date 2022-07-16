@@ -11,16 +11,16 @@
  - [Basics to STA](#basics-of-sta)
    - [2.1. Introduction to STA](#21-introduction-to-sta)
    - [2.2. Timing dot Libs](#22-timing-dot-libs)
-   - [2.3. Exploring dotLib](#23-various-flop-coding-styles-and-optimization)
+   - [2.3. Exploring dotLib](#23-exploring-dotlib)
 - [Advanced Constraints](advanced-constraints)
   - [3.1. Clock Tree Modelling - Uncertainty](#31-clock-tree-modelling---uncertainty)
   - [3.2. Loading Design get_cells, get_ports, get_nets](#32-loading-design-get_cells-get_ports-get_nets)
   - [3.3. Loading Design get_pins, get_clocks, querying_clocks](#33--loading-design-get_pins-get_clocks-querying_clocks)
   - [3.4 Creating Clock Waveforms](#34-creating-clock-waveforms)
   - [3.5 Clock Network Modelling - Uncertainty, report_timing](#35-clock-network-modelling---uncertainty-report_timing)
-  -  [3.6 IO Delays](#36-io-delays)
-  -  [3.7 SDC  generated_clk](#37-sdc--generated_clk)
-  -  [3.8 SDC vclk, max_latency, rise_fall IO Delays](#38-sdc-vclk-max_latency-rise_fall-io-delays)
+  - [3.6 IO Delays](#36-io-delays)
+  - [3.7 SDC generated_clk](#37-sdc-generated_clk)
+  - [3.8 SDC vclk, max_latency, rise_fall IO Delays](#38-sdc-vclk-max_latency-rise_fall-io-delays)
 - [Optimizations](#optimizations)
   - [4.1 Combinational  Optimizations](#41-combinational--optimizations)
   - [4.2 Sequential  Optimizations](#42-sequential--optimizations)
@@ -29,11 +29,11 @@
   - [4.5 Isolating output ports](#45-isolating-output-ports)
   - [4.6 Multicycle Paths](#46-multicycle-paths)
   - [4.7 Resource Sharing Optimizations](#47-resource-sharing-optimizations)
-
 - [Quality Checks](#quality-checks)
   - [5.1 Report timing](#51-report-timing)
   - [5.2 Check_timing, Check_design, Set_max_capacitance, HFN](#52-check_timing-check_design-set_max_capacitance-hfn)
-
+* [Acknowledgements](#acknowledgements)
+* [Author](#author)
 
 # Introduction
 
@@ -60,7 +60,7 @@ The Tools used are:
 - Synopsys Design Compiler : For Logic Synthesis
 - SAED_PDK 28_32nm Technology Node
 
-
+Refer : [Link](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git) for more details
 
 # Introduction to Logic Synthesis
 
@@ -210,7 +210,7 @@ input/output interface.
 ![lab-1-saed32hvt_tt0p85v25c lib - timing dot libs-2](https://user-images.githubusercontent.com/83152452/179352255-df5937a1-3c67-465a-bf46-8aa26bbf6bb6.png)
 
 
-### 2.3. Exploring  dotLib 
+### 2.3. Exploring dotLib 
 
 ![lab-2-saed32hvt_tt0p85v25c lib - exploring dot libs-1 - hold_falling](https://user-images.githubusercontent.com/83152452/179352260-f382c16d-09e3-429d-bc3d-a3c15539c143.png)
 
@@ -637,7 +637,12 @@ set. Library cell pins also can have max_capacitance value specified.
 ![lab-2- mux_generate_128_1 - schematic view](https://user-images.githubusercontent.com/83152452/179356269-046c6f79-75c3-4415-b4eb-5fc26865423c.png)
 
 
+# Acknowledgements
+- [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
 
+
+## Author
+- [A Devipriya](https://github.com/Devipriya1921), B.E (Electronics and Communication Engineering), Bangalore - adevipriya1900@gmail.com
 
 
 
